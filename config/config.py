@@ -52,7 +52,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/harryashu5/JNVI8",
+    "https://github.com/SARKAROP123/EXTRAPLUGIN-",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -216,7 +216,7 @@ START_IMG_URL = getenv(
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/772ba470b6b1d5a4f49d6.jpg",
+    "https://graph.org/file/66ab5aa0c2566363eb1e4.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
