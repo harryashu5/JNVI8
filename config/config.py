@@ -52,7 +52,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/SARKAROP123/EXTRAPLUGIN-",
+    "https://github.com/harryashu5/JNVI8",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
