@@ -25,7 +25,7 @@ from VIPMUSIC.utils.inline import support_group_markup
 async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
         photo=PING_IMG_URL,
-        caption=_["ping_1"].format(app.mention),
+        caption=_["**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 ᴅɪɴɢ...ᴅᴏɴɢ...ᴅɪɴɢ💞\n   🍁ᴍᴀᴅᴇ ʙʏ to@tum_jaha_ham_wahi 🥵**"].format(app.mention),
     )
     start = datetime.now()
     pytgping = await VIP.ping()
