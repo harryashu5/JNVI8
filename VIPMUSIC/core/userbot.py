@@ -65,10 +65,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TG_NAME_STYLE")
-                await self.one.join_chat("ll_MOI_ll")
-                await self.one.join_chat("TG_NAME_STYLE")
-                await self.one.join_chat("ll_MOI_ll")
+                await self.one.join_chat("harrysfeel")
+                await self.one.join_chat("harry_bots")
+                await self.one.join_chat("harrysfeel")
+                await self.one.join_chat("harry_bots")
             except:
                 pass
             assistants.append(1)
@@ -93,10 +93,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("ll_MOI_ll")
-                await self.two.join_chat("TG_NAME_STYLE")
-                await self.two.join_chat("TG_NAME_STYLE")
-                await self.two.join_chat("ll_MOI_ll")
+                await self.two.join_chat("harry_bots")
+                await self.two.join_chat("harrysfeel")
+                await self.two.join_chat("harrysfeel")
+                await self.two.join_chat("harry_bots")
             except:
                 pass
             assistants.append(2)
@@ -121,10 +121,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("ll_MOI_ll")
-                await self.three.join_chat("TG_NAME_STYLE")
-                await self.three.join_chat("TG_NAME_STYLE")
-                await self.three.join_chat("ll_MOI_ll")
+                await self.three.join_chat("harry_bots")
+                await self.three.join_chat("harrysfeel")
+                await self.three.join_chat("harrysfeel")
+                await self.three.join_chat("harry_bots")
             except:
                 pass
             assistants.append(3)
@@ -149,10 +149,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("ll_MOI_ll")
-                await self.four.join_chat("TG_NAME_STYLE")
-                await self.four.join_chat("ll_MOI_ll")
-                await self.four.join_chat("TG_NAME_STYLE")
+                await self.four.join_chat("harry_bots")
+                await self.four.join_chat("harrysfeel")
+                await self.four.join_chat("harry_bots")
+                await self.four.join_chat("harrysfeel")
             except:
                 pass
             assistants.append(4)
@@ -177,10 +177,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TG_NAME_STYLE")
-                await self.five.join_chat("ll_MOI_ll")
-                await self.five.join_chat("TG_NAME_STYLE")
-                await self.five.join_chat("ll_MOI_ll")
+                await self.five.join_chat("harrysfeel")
+                await self.five.join_chat("harry_bots")
+                await self.five.join_chat("harrysfeel")
+                await self.five.join_chat("harry_bots")
             except:
                 pass
             assistants.append(5)
