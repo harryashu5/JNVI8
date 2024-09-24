@@ -19,13 +19,13 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 60:
+    if 10 < umm <= 20:
         bar = "——◉——————————"
-    elif 60 <= umm < 65:
+    elif 20 <= umm < 35:
         bar = "—————◉———————"
-    elif 65 <= umm < 70:
+    elif 35 <= umm < 50:
         bar = "——————◉——————"
-    elif 70 <= umm < 75:
+    elif 50 <= umm < 75:
         bar = "———————◉—————"
     elif 75 <= umm < 80:
         bar = "————————◉————"
@@ -38,7 +38,7 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
     elif 95 <= umm < 100:
         bar = "————————————◉"
     else:
-        bar = "——◉——————————————"
+        bar = "◉——————————————"
 
     buttons = [
         [
@@ -46,20 +46,22 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
                 text=f"{played} •{bar}• {dur}",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
-        ],
+                ],
         [
             InlineKeyboardButton(
-                text=_["P_B_7"], callback_data=f"add_playlist {videoid}"
+                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/tum_jaha_ham_wahi"
+            ),
+            InlineKeyboardButton(
+                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/harry_bots/6"
             ),
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(
+                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
+            ),
         ],
-        [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close")],
     ]
+    
     return buttons
 
 
@@ -86,13 +88,13 @@ def telegram_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 60:
+    if 10 < umm <= 20:
         bar = "——◉——————————"
-    elif 60 <= umm < 65:
+    elif 20 <= umm < 35:
         bar = "—————◉———————"
-    elif 65 <= umm < 70:
+    elif 35 <= umm < 50:
         bar = "——————◉——————"
-    elif 70 <= umm < 75:
+    elif 50 <= umm < 75:
         bar = "———————◉—————"
     elif 75 <= umm < 80:
         bar = "————————◉————"
@@ -105,7 +107,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     elif 95 <= umm < 100:
         bar = "————————————◉"
     else:
-        bar = "——◉——————————————"
+        bar = "◉——————————————"
 
     buttons = [
         [
@@ -115,15 +117,20 @@ def telegram_markup_timer(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(
+                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/tum_jaha_ham_wahi"
+            ),
+            InlineKeyboardButton(
+                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/harry_bots/6"
+            ),
         ],
         [
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
+            InlineKeyboardButton(
+                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
+            ),
         ],
     ]
+
     return buttons
 
 
@@ -307,13 +314,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 60:
+    if 10 < umm <= 20:
         bar = "——◉——————————"
-    elif 60 <= umm < 65:
+    elif 20 <= umm < 35:
         bar = "—————◉———————"
-    elif 65 <= umm < 70:
+    elif 35 <= umm < 50:
         bar = "——————◉——————"
-    elif 70 <= umm < 75:
+    elif 50 <= umm < 75:
         bar = "———————◉—————"
     elif 75 <= umm < 80:
         bar = "————————◉————"
@@ -326,7 +333,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     elif 95 <= umm < 100:
         bar = "————————————◉"
     else:
-        bar = "——◉——————————————"
+        bar = "◉——————————————"
 
     buttons = [
         [
@@ -371,7 +378,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["S_B_5"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
-        ],
+                ],
         [
             InlineKeyboardButton(
                 text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/tum_jaha_ham_wahi"
@@ -557,13 +564,13 @@ def stream_markup_timer2(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 60:
+    if 10 < umm <= 20:
         bar = "——◉——————————"
-    elif 60 <= umm < 65:
+    elif 20 <= umm < 35:
         bar = "—————◉———————"
-    elif 65 <= umm < 70:
+    elif 35 <= umm < 50:
         bar = "——————◉——————"
-    elif 70 <= umm < 75:
+    elif 50 <= umm < 75:
         bar = "———————◉—————"
     elif 75 <= umm < 80:
         bar = "————————◉————"
@@ -576,7 +583,7 @@ def stream_markup_timer2(_, chat_id, played, dur):
     elif 95 <= umm < 100:
         bar = "————————————◉"
     else:
-        bar = "——◉——————————————"
+        bar = "◉——————————————"
 
     buttons = [
         [
@@ -586,16 +593,20 @@ def stream_markup_timer2(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(
+                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/tum_jaha_ham_wahi"
+            ),
+            InlineKeyboardButton(
+                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/harry_bots/6"
+            ),
         ],
         [
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
+            InlineKeyboardButton(
+                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
+            ),
         ],
     ]
+
     return buttons
 
 
@@ -703,7 +714,7 @@ def panel_markup_5(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="๏ ʜᴏᴍᴇ ๏",
+                text="๏ ʙᴀᴄᴋ ๏",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -762,13 +773,13 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 60:
+    if 10 < umm <= 20:
         bar = "——◉——————————"
-    elif 60 <= umm < 65:
+    elif 20 <= umm < 35:
         bar = "—————◉———————"
-    elif 65 <= umm < 70:
+    elif 35 <= umm < 50:
         bar = "——————◉——————"
-    elif 70 <= umm < 75:
+    elif 50 <= umm < 75:
         bar = "———————◉—————"
     elif 75 <= umm < 80:
         bar = "————————◉————"
@@ -781,7 +792,7 @@ def panel_markup_4(_, vidid, chat_id, played, dur):
     elif 95 <= umm < 100:
         bar = "————————————◉"
     else:
-        bar = "——◉——————————————"
+        bar = "◉——————————————"
 
     buttons = [
         [
@@ -835,18 +846,18 @@ def panel_markup_clone(_, vidid, chat_id):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+                ],
+        [
+            InlineKeyboardButton(
+                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/tum_jaha_ham_wahi"
+            ),
+            InlineKeyboardButton(
+                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/harry_bots/6"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="📥 ᴠɪᴅᴇᴏ", callback_data=f"downloadvideo {vidid}"
-            ),
-            InlineKeyboardButton(
-                text="📥 ᴀᴜᴅɪᴏ", callback_data=f"downloadaudio {vidid}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✚ ᴘʟᴀʏʟɪsᴛ ✚", callback_data=f"vip_playlist {vidid}"
+                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
             ),
         ],
     ]
