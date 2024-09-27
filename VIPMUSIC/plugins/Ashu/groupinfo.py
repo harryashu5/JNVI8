@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from SHUKLAMUSIC import app
+from VIPMUSIC import app
 
 @app.on_message(filters.command("groupinfo", prefixes="/"))
 async def get_group_status(_, message: Message):
@@ -58,7 +58,7 @@ def group_status(client, message):
 
 """ ***                                                                       
 ────────────────────────────────────────────────────────────────────────
-SHIVANSH STRANGER SHUKLA
+𝙷𝙰𝚁𝚁𝚈
 ────────────────────────────────────────────────────────────────────────**"""
 
 
