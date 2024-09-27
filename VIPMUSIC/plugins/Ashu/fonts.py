@@ -1,8 +1,8 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SHUKLAMUSIC.utils.Shukla_font import Fonts
-from SHUKLAMUSIC import app
+from VIPMUSIC.utils.Shukla_font import Fonts
+from VIMUSIC import app
 
 @app.on_message(filters.command(["font", "fonts"]))
 async def style_buttons(c, m, cb=False):
