@@ -230,5 +230,18 @@ async def cancel_spam(client, message):
         except:
             pass
         return await message.reply("๏ ᴍᴇɴᴛɪᴏɴ ᴘʀᴏᴄᴇss sᴛᴏᴘᴘᴇᴅ ๏")
+              __MODULE__ = "Gmtag"
+__HELP__ = """
+**Gmtag**
+
+This module allows administrators to tag good morning .
+
+Commands:
+- /gmtag: Starting good morning tag in group to everyone.
+- /gmstop: Stop good morning tag in group to everyone.
+
+Note:
+- Only administrators can use these commands.
+"""
 
 
