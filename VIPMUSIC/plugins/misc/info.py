@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from SHUKLAMUSIC import app
+from VIPMUSIC import app
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -66,8 +66,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "SHUKLAMUSIC/assets/userinfo.png"
-font_path = "SHUKLAMUSIC/assets/hiroko.ttf"
+bg_path = "VIPMUSIC/assets/userinfo.png"
+font_path = "VIPMUSIC/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 
