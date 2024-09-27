@@ -230,9 +230,9 @@ async def cancel_spam(client, message):
         except:
             pass
         return await message.reply("๏ ᴍᴇɴᴛɪᴏɴ ᴘʀᴏᴄᴇss sᴛᴏᴘᴘᴇᴅ ๏")
-              __MODULE__ = "Gmtag"
+              __MODULE__ = "Admin"
 __HELP__ = """
-**Gmtag**
+**Admin**
 
 This module allows administrators to tag good morning .
 
