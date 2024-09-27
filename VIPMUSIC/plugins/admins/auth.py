@@ -12,6 +12,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
+from strings import get_command
 from VIPMUSIC import app
 from VIPMUSIC.utils.database import (
     delete_authuser,
