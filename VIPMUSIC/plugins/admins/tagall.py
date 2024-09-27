@@ -1,4 +1,4 @@
-from SHUKLAMUSIC import app 
+from VIPMUSIC import app 
 import asyncio
 import random
 from pyrogram import Client, filters
