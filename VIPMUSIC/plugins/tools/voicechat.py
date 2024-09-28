@@ -188,4 +188,5 @@ __HELP__ = """
 <b>✧ /utag<b> - ᴀɴʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ᴛᴀɢ. <b>✧ /tagstop<b> - ᴀɴʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ᴛᴀɢ sᴛᴏᴘ.  
 
 <b>✧ /info<b> - 𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗡𝗧𝗢𝗡.
+<b>✧ /gmtag<b> - Good morning tag. <b>✧ /gmstop<b> - Stop good morning tag.
 """
