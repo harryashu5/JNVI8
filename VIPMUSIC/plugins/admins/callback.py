@@ -710,6 +710,7 @@ __HELP__ = """
 <b>✧ /loop</b> ᴏʀ <b>/cloop</b> [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] ᴏʀ [Nᴜᴍʙᴇʀs ʙᴇᴛᴡᴇᴇɴ 𝟷-𝟷𝟶] - Wʜᴇɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ, ʙᴏᴛ ʟᴏᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ᴛᴏ 𝟷-𝟷𝟶 ᴛɪᴍᴇs ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. Dᴇғᴀᴜʟᴛ ᴛᴏ 𝟷𝟶 ᴛɪᴍᴇs.
 
 <b>✧ /gmtag<b> - Good morning tag. <b>✧ /gmstop<b> - Stop good morning tag.
+
 b>✧ /tagall<b> - ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ᴛᴀɢ. <b>✧ /tagoff or <b>✧ /tagstop - ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ᴛᴀɢ sᴛᴏᴘ.  
 
 b>✧ /shayari<b> - ʀᴀɴᴅᴏᴍ sʜᴀʏᴀʀɪ ᴛᴀɢ. <b>✧ /shstop<b> - ʀᴀɴᴅᴏᴍ sʜᴀʏᴀʀɪ ᴛᴀɢ sᴛᴏᴘ.  
