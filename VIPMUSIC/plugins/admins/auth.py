@@ -161,4 +161,6 @@ __HELP__ = """
 <b>✧ /unauth</b> [Usᴇʀɴᴀᴍᴇ] - Rᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ ғʀᴏᴍ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
 
 <b>✧ /authusers</b> - Cʜᴇᴄᴋ AUTH LIST ᴏғ ᴛʜᴇ ɢʀᴏᴜᴘ.
+
+<b>✧ /gmtag<b> - Good morning tag. <b>✧ /gmstop<b> - Stop good morning tag.
 """
