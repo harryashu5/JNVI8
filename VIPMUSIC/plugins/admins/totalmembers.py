@@ -2,7 +2,7 @@ from VIPMUSIC.utils.vip_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from VIPUSIC import app
+from VIPMUSIC import app
 
 @app.on_message(filters.command("user") & admin_filter)
 def user_command(client, message):
