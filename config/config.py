@@ -74,7 +74,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6919772024").split())
+    map(int, getenv("OWNER_ID", "6754480012").split())
 )  # Input type must be interger
 
 
@@ -95,7 +95,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SARKAROP123/ALONEBOTS",
+    "https://github.com/harryashu5/JNVI8-running-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -138,7 +138,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/SARKAROP123/ALONEBOTS")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/harryashu5/JNVI8-running-")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -211,7 +211,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://telegra.ph/file/41ec8f174b98e691047f7.png",
+    "https://graph.org/file/3bee69ef3d776dc3928ff.jpg",
 )
 
 PING_IMG_URL = getenv(
