@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from VIPMUSIC import app
 from pyrogram import filters
-from VIPMUSIC.utils.Shukla_ban import admin_filter
+from VIPMUSIC.utils.VIP_ban import admin_filter
 
 
 
