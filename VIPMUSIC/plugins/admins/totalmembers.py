@@ -1,8 +1,8 @@
-from SHUKLAMUSIC.utils.Shukla_ban import admin_filter
+from VIPMUSIC.utils.Shukla_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from SHUKLAMUSIC import app
+from VIPUSIC import app
 
 @app.on_message(filters.command("user") & admin_filter)
 def user_command(client, message):
