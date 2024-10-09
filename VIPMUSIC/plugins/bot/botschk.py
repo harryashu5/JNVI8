@@ -19,7 +19,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from dotenv import load_dotenv
-from SHUKLAMUSIC.core.userbot import Userbot
+from VIPMUSIC.core.userbot import Userbot
 from datetime import datetime
 
 # Assuming Userbot is defined elsewhere
