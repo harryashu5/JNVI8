@@ -689,7 +689,7 @@ async def markup_timerss():
 
 asyncio.create_task(markup_timerss())
 
-__MODULE__ = "Adᴍɪɴ"
+__MODULE__ = "🍭 ᴧᴅᴍɪɴ 🍭"
 __HELP__ = """
 
 <b>c sᴛᴀɴᴅs ғᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.</b>
