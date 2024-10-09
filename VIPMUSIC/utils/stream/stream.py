@@ -43,6 +43,7 @@ async def stream(
     streamtype: Union[bool, str] = None,
     spotify: Union[bool, str] = None,
     forceplay: Union[bool, str] = None,
+    delay=10,
 ):
     if not result:
         return
@@ -96,7 +97,8 @@ async def stream(
                         vidid, mystic, video=status, videoid=True
                     )
                 except:
-                    raise AssistantErr(_["play_16"])
+                    return await mystic.delete()
+
                 await VIP.join_call(
                     chat_id, original_chat_id, file_path, video=status, image=thumbnail
                 )
@@ -156,7 +158,8 @@ async def stream(
                 vidid, mystic, videoid=True, video=status
             )
         except:
-            raise AssistantErr(_["play_16"])
+            return await mystic.delete()
+
         if await is_active_chat(chat_id):
             await put_queue(
                 chat_id,
