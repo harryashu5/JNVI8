@@ -171,33 +171,22 @@ async def greet_new_member(_, member: ChatMemberUpdated):
             welcomeimg = welcomepic(
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
-            button_text = "❍ 𓆩 𝗦𝐓𝐘𝐋𝐈𝐒𝐇 ⌯ 𝗡𝐀𝐌𝐄 𓆪 ❍"
+            button_text = "❍ 𓆩◕𝐓𝐆 𝐍𝐀𝐌𝐄 & 𝐁𝐈𝐎◕𓆪 ❍"
             add_button_text = "❍ 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 ❍"
-            deep_link = f"https://t.me/TG_NAME_STYLE"
-            add_link = f"https://t.me/TG_NAME_STYLE/4602"
+            deep_link = f"https://t.me/TG_BIO_STYLE"
+            add_link = f"https://t.me/tum_jaha_ham_wahi"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
                 caption=f"""
-╔═.✵.════════════════╗
+╔═.✵.═════════════════╗
 ❍ 𝐍ᴀᴍᴇ ➥  {user.mention}
 ❍ 𝐔sᴇʀɴᴀᴍᴇ ➥  @{user.username}
 ❍ 𝐔sᴇʀ 𝐈ᴅ ➥  {user.id}
 
-➥🌹╔══╗
-➥🌹╚╗╔╝
-➥🌹╔╝╚╗
-➥🌹╚══╝
-➥🌹╔╗ 
-➥🌹║║╔═╦╦╦╔╗
-➥🌹║╚╣║║║║╔╣
-➥🌹╚═╩═╩═╩═╝
-➥🌹╔╗╔╗
-➥🌹║║║║
-➥🌹║╚╝║
-➥🌹╚══╝
-❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ➥ ๛[❤️‍🔥 • 𝛚𝛐𝛚 • ❤️‍🔥](https://t.me/ll_SARKAR_MERA_BABU_ll)
-╚════════════════.✵.═╝
+➥🌹𝐈ғ ᴜ ᴡᴀɴᴛ ʟᴏᴠᴇ  ☞︎ ๛[❤️‍🔥 • ʟᴏᴠᴇ • ❤️‍🔥](https://t.me/tum_jaha_ham_wahi)
+❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ➥ ๛[❤️‍🔥 • 𝛚𝛐𝛚 • ❤️‍🔥](https://t.me/tum_jaha_ham_wahi)
+╚════════════════.✵.══╝
 """,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton(button_text, url=deep_link)],
