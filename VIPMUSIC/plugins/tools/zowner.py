@@ -20,7 +20,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/tum_jaha_ham_wahi")
                 ]
             ]
         ),
@@ -38,7 +38,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/tum_jaha_ham_wahi")
                 ]
             ]
         ),
@@ -55,7 +55,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/ll_SARKAR_MERA_BABU_ll")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/tum_jaha_ham_wahi")
                 ]
             ]
         ),
@@ -81,7 +81,7 @@ import time
 async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
-        await message.reply("**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @ll_RADHA_MUSICBOT`**")
+        await message.reply("**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @magician_music_bot`**")
         return
     
     bot_username = command_parts[1]
