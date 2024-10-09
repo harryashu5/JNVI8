@@ -1,8 +1,8 @@
-from SHUKLAMUSIC import app
+from VIPMUSIC import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from SHUKLAMUSIC.utils.Shukla_ban import admin_filter
+from VIPMUSIC.utils.Shukla_ban import admin_filter
 
 BOT_ID = "6824607634"
 
