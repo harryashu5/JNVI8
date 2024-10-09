@@ -1,4 +1,4 @@
-from SHUKLAMUSIC import app
+from VIPMUSIC import app
 from pyrogram import Client, filters
 
 from pyrogram.enums import ParseMode
